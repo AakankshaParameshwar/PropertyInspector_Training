@@ -1,10 +1,10 @@
 NRM PROPERTY INSPECTOR UI
 
-	NRM is a web application designed using ICEFACES, Backbone.js for front end and
-	Ruby, java for back end.
-	Property Inspector is a part of NRM, that displays item's properties, and
-	provides user Interface to modify them.
-	This UI is developed using Backbone.js and java with jersey framework.
+NRM is a web application designed using ICEFACES, Backbone.js for front end and
+Ruby, java for back end.
+Property Inspector is a part of NRM, that displays item's properties, and
+provides user Interface to modify them.
+This UI is developed using Backbone.js and java with jersey framework.
 	
 Storage:
 
@@ -14,12 +14,12 @@ Storage:
 	|- assests		
 		|- css	- contains all css files
 		|- images - contains all the images that are to be loaded to the page
-		|- json - contains all static json files related to equipment properties
+		|- json - all static json files related to equipment properties
 	|- lib
-		|- js	- contains all the js libraries to be loaded when the document is ready
+		|- js	- all the js libraries to be loaded when the document is ready
 	|- src
 	|- js		
-		|- models	- contains all the Backbone models required for this application
+		|- models	- all the Backbone models required for this application
 		|- views	- contains all the Backbone views
 		|- collections	- contains all the Backbone collections
 		|- routes	- contains all the Backbone routers (empty)
