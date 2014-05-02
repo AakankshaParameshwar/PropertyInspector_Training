@@ -1,0 +1,93 @@
+{
+  "categories" : [
+    {
+      "categoryName" : "General",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Capabiliasdties",
+          "name" : "propCapabilities",
+          "readOnly" : true
+        },
+        {
+          "label" : "Classifications",
+          "name" : "classificationNames",
+          "readOnly" : true
+        },
+        {
+          "label" : "Name",
+          "name" : "name",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Link",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Oversubscription",
+          "name" : "oversubscription",
+          "readOnly" : true
+        },
+        {
+          "label" : "Protocoasdl",
+          "name" : "protocol",
+          "readOnly" : true
+        },
+        {
+          "label" : "Taasdg",
+          "name" : "tag",
+          "readOnly" : true
+        },
+        {
+          "label" : "Tuasdnnel",
+          "name" : "tunnel",
+          "readOnly" : true
+        }
+      ]
+    }
+  ],
+  "displayRelations" : [
+    {
+      "name" : "displayANode",
+      "value" : "A Node"
+    },
+    {
+      "name" : "displayAInterface",
+      "value" : "A Interface"
+    },
+    {
+      "name" : "displayZInterface",
+      "value" : "Z Interface"
+    },
+    {
+      "name" : "displayZNode",
+      "value" : "Z Node"
+    },
+    {
+      "name" : "multipointNodes",
+      "value" : "Nodes"
+    },
+    {
+      "name" : "subLinks",
+      "value" : "Sublinks"
+    },
+    {
+      "name" : "tiedCables",
+      "value" : "Cables"
+    },
+    {
+      "name" : "sharedObjectReferences",
+      "value" : "Shared References"
+    },
+    {
+      "name" : "documents",
+      "value" : "Attached Documents"
+    },
+    {
+      "name" : "changeImpacts",
+      "value" : "Change Impacts"
+    }
+  ]
+}

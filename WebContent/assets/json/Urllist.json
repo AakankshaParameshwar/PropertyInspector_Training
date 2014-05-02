@@ -1,0 +1,14 @@
+[
+		{
+          "name" : "Plan",
+          "url" : "./assets/json/Plan.json"
+        },
+        {
+          "name" : "Link",
+          "url" : "./assets/json/Link.json"
+        },
+        {
+          "name" : "Stack",
+          "url" : "./assets/json/Stack.json"
+        }
+]

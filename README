@@ -1,0 +1,49 @@
+NRM PROPERTY INSPECTOR UI
+
+	NRM is a web application designed using ICEFACES, Backbone.js for front end and
+	Ruby, java for back end.
+	Property Inspector is a part of NRM, that displays item's properties, and provides user Interface to modify them.
+	This UI is developed using Backbone.js and java with jersey framework.
+	
+Storage:
+
+	|- build 					- contains all the class files	
+	|- src						- contains all java files related to the web project
+	|-	WebContent				- contains all the front end code
+		|- assests		
+			|- css				- contains all css files
+			|- images 			- contains all the images that are to be loaded to the page
+			|- json 			- contains all static json files related to equipment properties
+		|- lib
+			|- js				- contains all the javascript libraries to be loaded 
+								  when the document is ready
+		|- src
+			|- js		
+				|- models		- contains all the Backbone models required for this application
+				|- views		- contains all the Backbone views
+				|- collections	- contains all the Backbone collections
+				|- routes		- contains all the Backbone routers (empty)
+				|- templates	- contains all the Backbone routers (empty)
+				|- App.js		- main js file called after loading libraries
+		|- META-INF				- contains all meta data related to the web project
+		|- WEB-INF
+			|- lib				- contains all the JAR files of libraries used by this web proj
+		
+		
+Status:
+	
+	Fetching respective json file and loading data as per selection - done
+	Proper display of Data fetched - done
+	Editing Property values/ labels - done
+	Editing Category labels - done
+	Adding new Category/ Display_Relation - done
+	Displaying icons for modification when clicked on modify button - done
+	Deleting Properties/ categories/ Display_Relations - done
+ => Drop and Drag feature to rearrange Properties/categories/Display_Relations - Almost done
+		-> Stuck at triggering a drop event on JQuery UI item obj 
+		-> Returned UI obj and Property element obj dont match ( at JQuery UI Sortable function stop())
+ => Add routes to application (make it RESTful)- TODO
+ => Implement backend using java with jersey to create a RESTful app - TODO
+ 
+	
+	

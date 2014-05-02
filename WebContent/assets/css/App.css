@@ -1,0 +1,248 @@
+body,html{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0 auto;
+	background: url("../images/main_background.png");
+	background-size:cover;
+	position:relative;
+	font-family: 'Open Sans',sans-serif; 
+}
+
+#page{
+	width:80%;
+	height:auto;
+	margin:auto;
+	color:#3B3B3B;
+	top:10%;
+	right:0;
+	left:0;
+	bottom:0;
+	position:absolute;
+	background-color:white;
+	border-radius:0.5em;
+}
+#choice-list-display li{
+	list-style-image:url("../images/favicon.ico");
+	font-size:16px;
+	padding:5px;
+}
+#choice-list-display li:hover{
+	font-size:18px;
+	color:#0088CC;
+	cursor:pointer;
+}
+.heading{
+	width:100%;
+	height:auto;
+	border-bottom:2px dotted #FA8072;
+}
+.heading h3{
+	padding:0.08em;
+}
+#property-display{
+	display:none;
+	width:50%;
+	position:absolute;
+	height:auto;
+	padding:10px;
+	top:0;
+	right:0;
+/* 	bottom:0;
+	left:0; */
+	margin:auto;
+	background-color:/*#4E4E4E*/#F5F5F5;
+	border-radius:0em 0.5em 0.5em 0em;
+	
+}
+#choice-list-display{
+	width:40%;
+	height:auto;
+	padding:10px;
+	height:auto;
+	top:0;
+	display:inline-block;
+}
+.modify{
+	background: /*#EE6557*/rgba(241,76,46,0.7) url("../images/icons/Edit document.png") no-repeat scroll 5px center;
+}
+.done{
+	background: /*#EE6557*/rgba(241,76,46,0.7) url("../images/icons/Apply.png") no-repeat scroll 5px center;
+}
+.modify,.done{
+	width:80px;
+	height:35px;
+	position:absolute;
+	top:25px;
+	right:20px;
+	display:inline-block;
+	border-radius:2px;
+	text-decoration:none;
+	background-size:20px 20px;
+	font-size:14px;
+	text-align:right;
+	border:0.2px solid rgba(241,76,46,0);
+	}
+.modify:hover,.done:hover{
+	background-color:rgba(241,76,46,0.6);
+	cursor:pointer;
+}
+
+.category{
+	width:100%;
+	height:auto;
+	display:inline-block;
+	margin: 5px 0px;
+}
+.text{
+	width:90%;
+	height:auto;
+	margin:auto;
+	position:relative;
+}
+#content{
+	width:100%;
+	height:auto;
+}
+#content ul, .category ul{
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	
+}
+#content li{
+	padding: 10px 10px 10px 0;
+	position: relative;
+	width:97%;
+	margin:auto;
+}
+.category-name{
+	position:relative;
+	width:100%;
+	margin:auto;
+}
+.property-value,.display-relation-value{
+	width:100%;
+	height:auto;
+	padding:2px;
+	font-size:11px;
+}
+.property-name{
+	font-size:12px;
+	position:relative;
+}
+.category-name h5,.display-relation-name label{
+	font-weight:bold;
+	font-size:14px;
+}
+.prop,.disp-rel{
+	padding:5px;
+}
+.edit{
+	display: none;
+}
+.editing{
+	display: block;
+	width: 80%;
+	margin: 0;
+}
+#transparency{
+	background-color:black;
+	opacity:1;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.modify-buttons{
+	width:60px;
+	height:auto;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.add-icon,.delete-icon,.edit-icon{
+	width:13px;
+	height:13px;
+	height:inherit;
+	display:inline-block;
+	margin-left:4px;
+	opacity:0.6;
+}
+.property-delete-icons{
+	width:18px;
+	height:auto;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.add-icon:hover,.delete-icon:hover,.edit-icon:hover{
+	opacity:1;
+	cursor:pointer;
+
+}
+#Add{
+	width:20px;
+	height:auto;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.cat-modify-mode{
+	box-shadow:0px 0px 3px #aaaaaa;
+}
+input[type=text]:focus{
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+input[type=text]{
+	color:#EE6557;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #DDDDDD;
+ }
+/*  input:required:invalid{
+	background: #fff url("../images/icons/Done-icon.png") no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+} */
+.no-display{
+	display:none;
+}
+.display{
+	display:inline-block;
+}
+.background{
+	background-color:rgba(255,228,196,0.8);
+}
+#add-data,#add-property{
+	font-size:12px;
+	width:100%;
+	height:auto;
+	background-color:white;
+	padding:5px 0px 5px 5px;
+	border-radius:2px;
+	box-shadow:0px 0px 3px #aaaaaa;
+}
+#add-category,#add-displayRelation,#add-property{
+	font-size:11px;
+	padding:5px 0px 5px 5px;
+}
+input[type=submit],input[type=button]{
+	font-size:12px;
+	margin-left:5px;
+	margin-top:5px;
+}
+input[name=add-data]{
+	margin-bottom:5px;
+}
+.category-edit{
+	box-shadow:0px 0px 3px #aaaaaa;
+}
+.edit-mode .property-name label:hover,.edit-mode  .category-name h5:hover,.edit-mode .display-relation-name label:hover,.edit-mode  .property-value:hover{
+	cursor:pointer;
+	color:blue;
+}

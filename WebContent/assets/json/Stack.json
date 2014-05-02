@@ -1,0 +1,155 @@
+{
+  "categories" : [
+    {
+      "categoryName" : "General",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "IP_Addressasd",
+          "name" : "disc:IP_Address",
+          "readOnly" : true
+        },
+        {
+          "label" : "Classifications",
+          "name" : "classificationNames",
+          "readOnly" : true
+        },
+        {
+          "label" : "Display Name",
+          "name" : "userDisplayName",
+          "readOnly" : true
+        },
+        {
+          "label" : "Partial Name",
+          "name" : "userPartialName",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Asset",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Asset No",
+          "name" : "mixin:Asset:Asset No",
+          "readOnly" : true
+        },
+        {
+          "label" : "Cost Center",
+          "name" : "mixin:Asset:Cost Center",
+          "readOnly" : true
+        },
+        {
+          "label" : "Warranty End Date",
+          "name" : "mixin:Asset:Warranty End Date",
+          "readOnly" : true
+        },
+        {
+          "label" : "Warranty Start Date",
+          "name" : "mixin:Asset:Warranty Start Date",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Contact",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Email",
+          "name" : "mixin:Contact:Email",
+          "readOnly" : true
+        },
+        {
+          "label" : "Mobile",
+          "name" : "mixin:Contact:Mobile",
+          "readOnly" : true
+        },
+        {
+          "label" : "Name",
+          "name" : "mixin:Contact:Name",
+          "readOnly" : true
+        },
+        {
+          "label" : "Phone",
+          "name" : "mixin:Contact:Phone",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "DiscoveredAttributes",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Agentasd",
+          "name" : "disc:Agent",
+          "readOnly" : true
+        },
+        {
+          "label" : "Failed_Attemptsasd",
+          "name" : "disc:Failed_Attempts",
+          "readOnly" : true
+        },
+        {
+          "label" : "Last_Discovery_Dateasd",
+          "name" : "disc:Last_Discovery_Date",
+          "readOnly" : true
+        },
+        {
+          "label" : "Mac_Addressasd",
+          "name" : "disc:Mac_Address",
+          "readOnly" : true
+        },
+        {
+          "label" : "Mask_Addresasds",
+          "name" : "disc:Mask_Address",
+          "readOnly" : true
+        },
+        {
+          "label" : "Name",
+          "name" : "disc:Name",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Owner",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Department",
+          "name" : "mixin:Owner:Department",
+          "readOnly" : true
+        }
+      ]
+    }
+  ],
+  "displayRelations" : [
+    {
+      "name" : "model",
+      "value" : "Model"
+    },
+    {
+      "name" : "tiedNodes",
+      "value" : "Nodes"
+    },
+    {
+      "name" : "sharedObjectReferences",
+      "value" : "Shared References"
+    },
+    {
+      "name" : "documents",
+      "value" : "Attached Documents"
+    },
+    {
+      "name" : "changeImpacts",
+      "value" : "Change Impacts"
+    },
+    {
+      "name" : "modelDocuments",
+      "value" : "Model Documents"
+    }
+  ]
+}

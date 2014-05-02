@@ -1,0 +1,116 @@
+{
+  "categories" : [
+    {
+      "categoryName" : "General_plan",
+      "openByDefault" : false,
+      "properties" : [
+        {
+          "label" : "Classifications",
+          "name" : "classificationNames",
+          "readOnly" : false
+        },
+        {
+          "label" : "Display Name",
+          "name" : "userDisplayName",
+          "readOnly" : false
+        },
+        {
+          "label" : "Partial Name",
+          "name" : "userPartialName",
+          "readOnly" : false
+        }
+      ]
+    },
+    {
+      "categoryName" : "Addreasdss",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Addreadfss 1",
+          "name" : "mixin:Address:Address 1",
+          "readOnly" : false
+        },
+        {
+          "label" : "Addreadsss 2",
+          "name" : "mixin:Address:Address 2",
+          "readOnly" : false
+        },
+        {
+          "label" : "City",
+          "name" : "mixin:Address:City",
+          "readOnly" : false
+        },
+        {
+          "label" : "Country",
+          "name" : "mixin:Address:Country",
+          "readOnly" : false
+        },
+        {
+          "label" : "State/Prov",
+          "name" : "mixin:Address:State/Prov",
+          "readOnly" : true
+        },
+        {
+          "label" : "ZIP/Postal Code",
+          "name" : "mixin:Address:ZIP/Postal Code",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Contact",
+      "openByDefault" : false,
+      "properties" : [
+        {
+          "label" : "Email",
+          "name" : "mixin:Contact:Email",
+          "readOnly" : true
+        },
+        {
+          "label" : "Mobile",
+          "name" : "mixin:Contact:Mobile",
+          "readOnly" : true
+        },
+        {
+          "label" : "Name",
+          "name" : "mixin:Contact:Name",
+          "readOnly" : true
+        },
+        {
+          "label" : "Phone",
+          "name" : "mixin:Contact:Phone",
+          "readOnly" : true
+        }
+      ]
+    },
+    {
+      "categoryName" : "Plan",
+      "openByDefault" : true,
+      "properties" : [
+        {
+          "label" : "Bearing to True North",
+          "name" : "bearing",
+          "readOnly" : true
+        }
+      ]
+    }
+  ],
+  "displayRelations" : [
+    {
+      "name" : "globalCoordinate",
+      "value" : "Global Coordinate"
+    },
+    {
+      "name" : "sharedObjectReferences",
+      "value" : "Shared References"
+    },
+    {
+      "name" : "documents",
+      "value" : "Attached Documents"
+    },
+    {
+      "name" : "changeImpacts",
+      "value" : "Change Impacts"
+    }
+  ]
+}
