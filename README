@@ -1,6 +1,6 @@
-NRM PROPERTY INSPECTOR UI
+TRAINING PERIOD : PROPERTY INSPECTOR UI FOR NRM
 
-NRM is a web application designed using ICEFACES, Backbone.js for front end and
+Network Resource Manager(NRM) is a web application designed using ICEFACES, Backbone.js for front end and
 Ruby, java for back end.
 Property Inspector is a part of NRM, that displays item's properties, and
 provides user Interface to modify them.
